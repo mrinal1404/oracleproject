@@ -1,0 +1,13 @@
+prefix=D:/endtoend/resumetemplates/venv/Library
+exec_prefix=D:/endtoend/resumetemplates/venv/Library
+libdir=D:/endtoend/resumetemplates/venv/Library/lib
+sharedlibdir=D:/endtoend/resumetemplates/venv/Library/lib
+includedir=D:/endtoend/resumetemplates/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
